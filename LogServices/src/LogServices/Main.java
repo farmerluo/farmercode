@@ -4,6 +4,7 @@
  */
 
 package LogServices;
+import java.util.logging.Level;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
 import org.apache.log4j.Logger;
@@ -12,6 +13,10 @@ import java.text.SimpleDateFormat;
 import java.io.*;
 import java.util.*;
 import java.sql.*;
+import org.w3c.dom.*;
+import javax.xml.parsers.*;
+import org.xml.sax.SAXException;
+
 
 /**
  *
@@ -22,30 +27,18 @@ public class Main {
     public static int ExitFlag = 1;
     public static int Done = 0;
     private static Logger logger = Logger.getLogger(Main.class.getName());
-    private static String path = null ;
-    private static String ext = null;
-    private static String host = null;
-    private static String port = null;
-    private static String database = null;
-    private static String table = null;
-    private static String username = null;
-    private static String password = null;
     private static int dealy = 60;
-    private static String emailTo = null;
-    private static String emailFrom = null;
-    private static String emailUser = null;
-    private static String emailPasswd = null;
-    private static String emailSmtp = null;
-    private static boolean emailTLS = true;
-    private static boolean emailSSL = false;
     private static int detectTime = 30;
     private static String[] emailToList = null;
+    private static Document doc = null;
+    private static HashMap config_opt = null;
+    private static HashMap[] config_sites = null;
 
     public static void main(String[] args) throws SQLException {
         Connection mysql_conn = null;
-        long startTime = 0;
-        long stopTime = 0;
-        long dealyTime = 0;
+        long[] startTime;
+        long[] stopTime;
+        long[] dealyTime;
 
         org.apache.log4j.PropertyConfigurator.configure("./log4j.properties");
         logger.info( "LogServices start ..." );
@@ -54,46 +47,73 @@ public class Main {
 
         doShutDownWork();
 
-        try {
-            logger.info( "Connecting to mysql host:" + host );
-            mysql_conn = DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/" + database + "?user=" + username + "&password=" + password + "&characterEncoding=UTF8");
-        } catch (SQLException sQLException) {
-            Done = 1;
-            logger.error( sQLException );
-        }
-        
-        Statement stmt = null;
-        stmt = mysql_conn.createStatement();
-
-        startTime = System.currentTimeMillis();
+        startTime = new long[config_sites.length];
+        stopTime = new long[config_sites.length];
+        dealyTime = new long[config_sites.length];
 
         while( ExitFlag == 1 ) {
 
-            FileList findlist  = new FileList( path, ext );
-            File [] ArrList = findlist.FileLists;
+            for ( int j = 0; j < config_sites.length; j++ ) {
 
-            Done = 0;
-            for (int i = 0;i < ArrList.length; i++ ) {
-                
-                String sql = "LOAD DATA INFILE '" + ArrList[i].getAbsolutePath() + "' INTO TABLE " + table + " FIELDS TERMINATED BY ',';";
-
-                logger.info(sql);
                 try {
-                    stmt.executeUpdate(sql);
-                    boolean success = (new File( ArrList[i].getAbsolutePath() )).delete();
-                    if (!success) {
-                        logger.info( "Delete file " + ArrList[i].getAbsolutePath() + "failed" );
-                    }
-                    startTime = System.currentTimeMillis();
+                    logger.info( "Connecting to mysql host:" + config_sites[j].get("host") );
+                    mysql_conn = DriverManager.getConnection("jdbc:mysql://" + config_sites[j].get("host") + ":"
+                            + config_sites[j].get("port") + "/" + config_sites[j].get("database") + "?user=" +
+                            config_sites[j].get("username") + "&password=" + config_sites[j].get("password") + "&characterEncoding=UTF8");
+
                 } catch (SQLException sQLException) {
                     Done = 1;
                     logger.error( sQLException );
                 }
 
-                if ( ExitFlag == 0 ) {
-                    logger.info( "Exit main inside loop." );
-                    break;
+                Statement stmt = null;
+                stmt = mysql_conn.createStatement();
+
+                if ( startTime[j] == 0 )  startTime[j] = System.currentTimeMillis();
+
+                FileList findlist  = new FileList( config_sites[j].get("path").toString(), config_sites[j].get("extend_name").toString());
+                File [] ArrList = findlist.FileLists;
+
+                Done = 0;
+                for (int i = 0;i < ArrList.length; i++ ) {
+
+                    String sql = "LOAD DATA INFILE '" + ArrList[i].getAbsolutePath() + "' INTO TABLE " + config_sites[j].get("table") + " FIELDS TERMINATED BY ',';";
+
+                    logger.info(sql);
+                    try {
+                        stmt.executeUpdate(sql);
+                        boolean success = (new File( ArrList[i].getAbsolutePath() )).delete();
+                        if (!success) {
+                            logger.info( "Delete file " + ArrList[i].getAbsolutePath() + "failed" );
+                        }
+                        startTime[j] = System.currentTimeMillis();
+                    } catch (SQLException sQLException) {
+                        Done = 1;
+                        logger.error( sQLException );
+                    }
+
+                    if ( ExitFlag == 0 ) {
+                        logger.info( "Exit main inside loop." );
+                        break;
+                    }
                 }
+                stmt.close();
+                mysql_conn.close();
+
+                //在超过detectTime时间内没有导入数据，则发警告邮件出去
+                stopTime[j] = System.currentTimeMillis();
+                dealyTime[j] = ( stopTime[j] - startTime[j] ) / 1000;
+
+                if ( dealyTime[j] >= detectTime ) {
+                    startTime[j] = System.currentTimeMillis();
+                    logger.info( "no data import in " + detectTime + " second, warning mail sending." );
+                    for( int i=0; i<emailToList.length; i++ ) {
+                        logger.info( "send mail to:" +  emailToList[i] );
+                        sendMail( emailToList[i], config_sites[j].get("name").toString() );
+                    }
+                    logger.info( "warning mail send done." );
+                }
+
             }
 
             Done = 1;
@@ -108,26 +128,9 @@ public class Main {
                     logger.error( ie );
                 }
             }
-
-            //在超过detectTime时间内没有导入数据，则发警告邮件出去
-            stopTime = System.currentTimeMillis();
-            dealyTime = ( stopTime - startTime ) / 1000;
-
-            if ( dealyTime >= detectTime ) {
-                startTime = System.currentTimeMillis();
-                logger.info( "no data import in " + detectTime + " second, warning mail sending." );
-                for( int i=0; i<emailToList.length; i++ ) {
-                    logger.info( "send mail to:" +  emailToList[i] );
-                    sendMail(emailToList[i]);
-                }
-                logger.info( "warning mail send done." );
-            }
             
         }
-        
-        stmt.close();
-        mysql_conn.close();
-
+  
     }
 
     public static void destroyExit(){
@@ -145,72 +148,47 @@ public class Main {
 
     public static void loadConfig(){
 
-        Properties p = new Properties();
-        try {
-            logger.info( "load configure file: config.properties " );
-            p.load(new FileInputStream("config.properties"));
-        } catch (IOException ex) {
-            Done = 1;
-            logger.error( ex );
+        config_opt  = new HashMap();
+
+        logger.info( "Loading config.xml...");
+        viewXML("./config.xml");
+
+        emailToList = config_opt.get("email_to").toString().split(";");
+        dealy       = Integer.parseInt( config_opt.get("dealy").toString() );
+        detectTime  = Integer.parseInt( config_opt.get("detect_time").toString() );
+
+        Set<String> keys = config_opt.keySet();
+        for(String key: keys) {
+            logger.info( key + " == " + config_opt.get(key));
         }
 
-        path        = p.getProperty("path");
-        ext         = p.getProperty("extend_name");
-        host        = p.getProperty("host");
-        port        = p.getProperty("port");
-        database    = p.getProperty("database");
-        table       = p.getProperty("table");
-        username    = p.getProperty("username");
-        password    = p.getProperty("password");
-        dealy       = Integer.parseInt( p.getProperty("dealy") );
-        emailTo     = p.getProperty("email_to");
-        emailFrom   = p.getProperty("email_from");
-        emailUser   = p.getProperty("email_user");
-        emailPasswd = p.getProperty("email_passwd");
-        emailSmtp   = p.getProperty("email_smtp");
-        emailTLS    = Boolean.parseBoolean( p.getProperty("email_TLS") );
-        emailSSL    = Boolean.parseBoolean( p.getProperty("email_SSL") );
-        detectTime  = Integer.parseInt( p.getProperty("detect_time") );
-        emailToList = emailTo.split(";"); 
-        p = null;
-        
-        logger.info( "path = " + path );
-        logger.info( "extend_name = " + ext );
-        logger.info( "host = " + host );
-        logger.info( "port = " + port );
-        logger.info( "database = " + database );
-        logger.info( "table = " + table );
-        logger.info( "Username = " + username );
-        logger.info( "password = " + password );
-        logger.info( "dealy = " + dealy );
-        logger.info( "email_to = " + emailTo );
-        logger.info( "email_from = " + emailFrom );
-        logger.info( "email_user = " + emailUser );
-        logger.info( "email_passwd = " + emailPasswd );
-        logger.info( "email_smtp = " + emailSmtp );
-        logger.info( "email_TLS = " + emailTLS );
-        logger.info( "email_SSL = " + emailSSL );
-        logger.info( "detect_time = " + detectTime );
+        for ( int i = 0; i < config_sites.length; i++ ) {
+            logger.info( "site " + i + ":");
+            keys = config_sites[i].keySet();
+            for(String key: keys) {
+                logger.info( key + " == " + config_sites[i].get(key));
+            }
+        }
     }
 
-    public static void sendMail( String emailAddr )
+    public static void sendMail( String emailAddr , String sitename )
     {
         SimpleEmail email = new SimpleEmail();
-        email.setTLS(emailTLS);
-        email.setHostName(emailSmtp);
-        email.setSSL(emailSSL);
-        email.setAuthentication(emailUser, emailPasswd);
+        email.setTLS(Boolean.parseBoolean(config_opt.get("emailTLS").toString()));
+        email.setHostName(config_opt.get("emailSmtp").toString());
+        email.setSSL(Boolean.parseBoolean(config_opt.get("emailSSL").toString()));
+        email.setAuthentication(config_opt.get("emailUser").toString(), config_opt.get("emailPasswd").toString());
 
         Date now=new Date();
         SimpleDateFormat f=new SimpleDateFormat("yyyy年MM月dd日 kk点mm分");
 
         try
         {
-            email.addTo(emailAddr);
-            email.setFrom(emailFrom);
+            email.addTo(config_opt.get("emailAddr").toString());
+            email.setFrom(config_opt.get("emailFrom").toString());
             email.setSubject("LogService未检测到日志文件");
             email.setCharset("GB2312");
-            email.setMsg("警告：LogService在" + detectTime/60  + "分钟内未检测到日志文件!\n邮件发送时间："+ f.format(now));
+            email.setMsg("Site:" + sitename + "\n警告：LogService在" + detectTime/60  + "分钟内未检测到日志文件!\n邮件发送时间："+ f.format(now));
             email.send();
         } catch (EmailException e) {
             logger.error(e);
@@ -224,6 +202,81 @@ public class Main {
                 destroyExit();
             }
         });
+
+    }
+
+    // 该方法负责把XML文件的内容显示出来
+    public static void viewXML(String xmlFile) {
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        DocumentBuilder db = null;
+
+        try {
+            db = dbf.newDocumentBuilder();
+        } catch (ParserConfigurationException ex) {
+            logger.error( ex );
+        }
+
+        try {
+            doc = db.parse(new File(xmlFile));
+        } catch (SAXException ex) {
+            logger.error( ex );
+        } catch (IOException ex) {
+            logger.error( ex );
+        }
+
+        // 在xml文件里,只有一个根元素,先把根元素拿出来看看
+        //Element element = doc.getDocumentElement();
+        //System.out.println("根元素为:" + element.getTagName());
+        // 在xml文件里,只有一个根元素,先把根元素拿出来看看
+        //Element element = doc.getDocumentElement();
+        //System.out.println("根元素为:" + element.getTagName());
+
+
+        // 先取全局选项，存放在HashMap config_opt内
+        NodeList nodeList = doc.getElementsByTagName("section");
+        //System.out.println("section节点链的长度:" + nodeList.getLength());
+
+        Node fatherNode = nodeList.item(0);
+//        System.out.println("父节点为:" + fatherNode.getNodeName());
+//
+//        把父节点的属性拿出来
+//        NamedNodeMap attributes = fatherNode.getAttributes();
+//        for (int i = 0; i < attributes.getLength(); i++) {
+//            Node attribute = attributes.item(i);
+//            System.out.println("book的属性名为:" + attribute.getNodeName()
+//            + " 相对应的属性值为:" + attribute.getNodeValue());
+//        }
+
+        NodeList childNodes = fatherNode.getChildNodes();
+        //System.out.println(childNodes.getLength());
+        for (int j = 0; j < childNodes.getLength(); j++) {
+            Node childNode = childNodes.item(j);
+            // 如果这个节点属于Element ,再进行取值
+            if (childNode instanceof Element) {
+                //System.out.println("子节点名为:" + childNode.getNodeName() + "" + "相对应的值为" + childNode.getFirstChild().getNodeValue());
+                config_opt.put(childNode.getNodeName(), childNode.getFirstChild().getNodeValue());
+            }
+        }
+
+        //再取sites的选择，存放在config_sites内
+        NodeList nList = doc.getElementsByTagName("site");
+        //System.out.println("site节点链的长度:" + nList.getLength());
+
+        config_sites = new HashMap[nList.getLength()];
+        for ( int i = 0; i< nList.getLength(); i++ ){
+            Node fNode = nList.item(i);
+            NodeList cNodes = fNode.getChildNodes();
+
+            config_sites[i] = new HashMap();
+            for (int j = 0; j < cNodes.getLength(); j++) {
+                Node cNode = cNodes.item(j);
+                // 如果这个节点属于Element ,再进行取值
+                if (cNode instanceof Element) {
+                    //System.out.println("子节点名为:" + cNode.getNodeName() + "" + "相对应的值为" + cNode.getFirstChild().getNodeValue());
+                    config_sites[i].put(cNode.getNodeName(), cNode.getFirstChild().getNodeValue());
+                }
+            }
+        }
 
     }
 
