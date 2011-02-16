@@ -55,8 +55,30 @@ public class Main {
 
             for ( int j = 0; j < config_sites.length; j++ ) {
 
+                if ( startTime[j] == 0 )  startTime[j] = System.currentTimeMillis();
+                
+                //在超过detectTime时间内没有导入数据，则发警告邮件出去
+                stopTime[j] = System.currentTimeMillis();
+                dealyTime[j] = ( stopTime[j] - startTime[j] ) / 1000;
+
+                if ( dealyTime[j] >= detectTime ) {
+                    startTime[j] = System.currentTimeMillis();
+                    logger.info( "no data import in " + detectTime + " second, warning mail sending." );
+                    for( int i=0; i<emailToList.length; i++ ) {
+                        logger.info( "send mail to:" +  emailToList[i] );
+                        sendMail( emailToList[i], config_sites[j].get("name").toString() );
+                    }
+                    logger.info( "warning mail send done." );
+                }
+                
+                FileList findlist  = new FileList( config_sites[j].get("path").toString(), config_sites[j].get("extend_name").toString());
+                File [] ArrList = findlist.FileLists;
+                
+                //如果没有扫描到数据文件，则退出本次循环
+                if ( ArrList.length == 0 ) continue;
+
                 try {
-                    logger.info( "Connecting to mysql host:" + config_sites[j].get("host") + "database:" + config_sites[j].get("database") );
+                    logger.info( "connecting to mysql host:" + config_sites[j].get("host") + "database:" + config_sites[j].get("database") );
                     mysql_conn = DriverManager.getConnection("jdbc:mysql://" + config_sites[j].get("host") + ":"
                             + config_sites[j].get("port") + "/" + config_sites[j].get("database") + "?user=" +
                             config_sites[j].get("username") + "&password=" + config_sites[j].get("password") + "&characterEncoding=UTF8");
@@ -68,11 +90,6 @@ public class Main {
 
                 Statement stmt = null;
                 stmt = mysql_conn.createStatement();
-
-                if ( startTime[j] == 0 )  startTime[j] = System.currentTimeMillis();
-
-                FileList findlist  = new FileList( config_sites[j].get("path").toString(), config_sites[j].get("extend_name").toString());
-                File [] ArrList = findlist.FileLists;
 
                 Done = 0;
                 for (int i = 0;i < ArrList.length; i++ ) {
@@ -100,20 +117,6 @@ public class Main {
                 stmt.close();
                 mysql_conn.close();
                 logger.info( "disconnect mysql host:" + config_sites[j].get("host") + "database:" + config_sites[j].get("database") );
-
-                //在超过detectTime时间内没有导入数据，则发警告邮件出去
-                stopTime[j] = System.currentTimeMillis();
-                dealyTime[j] = ( stopTime[j] - startTime[j] ) / 1000;
-
-                if ( dealyTime[j] >= detectTime ) {
-                    startTime[j] = System.currentTimeMillis();
-                    logger.info( "no data import in " + detectTime + " second, warning mail sending." );
-                    for( int i=0; i<emailToList.length; i++ ) {
-                        logger.info( "send mail to:" +  emailToList[i] );
-                        sendMail( emailToList[i], config_sites[j].get("name").toString() );
-                    }
-                    logger.info( "warning mail send done." );
-                }
 
             }
 
