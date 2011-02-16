@@ -1,27 +1,2 @@
-2011-01-24 09:35:07:INFO main LogServices.Main - LogServices start ...
-2011-01-24 09:35:07:INFO main LogServices.Main - path=e:\csv
-2011-01-24 09:35:07:INFO main LogServices.Main - extend_name=.csv
-2011-01-24 09:35:07:INFO main LogServices.Main - host=192.168.20.23
-2011-01-24 09:35:07:INFO main LogServices.Main - port=5029
-2011-01-24 09:35:07:INFO main LogServices.Main - database=logs
-2011-01-24 09:35:07:INFO main LogServices.Main - Username=root
-2011-01-24 09:35:07:INFO main LogServices.Main - password=1qaz2wsx
-2011-01-24 09:35:07:INFO main LogServices.Main - dealy=60000
-2011-01-24 09:35:07:INFO main LogServices.Main - Connecting to mysql host:192.168.20.23
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 3.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 3.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 5.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 5.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 7.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 7.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 8.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 8.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 9.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 9.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 1.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 1.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 2.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 2.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - LOAD DATA INFILE 'e:\csv\cache - 4.csv' INTO TABLE log FIELDS TERMINATED BY ',';
-2011-01-24 09:35:07:ERROR main LogServices.Main - java.sql.SQLException: File '/usr/local/infobright/data/logs/e:csvcache - 4.csv' not found (Errcode: 2)
-2011-01-24 09:35:07:INFO main LogServices.Main - Sleep Time:60000ms
+2011-02-16 10:14:56:INFO main LogServices.Main - LogServices start ...
+2011-02-16 10:14:56:INFO main LogServices.Main - Loading config.xml...

@@ -31,8 +31,8 @@ public class Main {
     private static int detectTime = 30;
     private static String[] emailToList = null;
     private static Document doc = null;
-    private static HashMap config_opt = null;
-    private static HashMap[] config_sites = null;
+    private static HashMap<String,String> config_opt = null;
+    private static HashMap<String,String>[] config_sites = null;
 
     public static void main(String[] args) throws SQLException {
         Connection mysql_conn = null;
@@ -56,7 +56,7 @@ public class Main {
             for ( int j = 0; j < config_sites.length; j++ ) {
 
                 try {
-                    logger.info( "Connecting to mysql host:" + config_sites[j].get("host") );
+                    logger.info( "Connecting to mysql host:" + config_sites[j].get("host") + "database:" + config_sites[j].get("database") );
                     mysql_conn = DriverManager.getConnection("jdbc:mysql://" + config_sites[j].get("host") + ":"
                             + config_sites[j].get("port") + "/" + config_sites[j].get("database") + "?user=" +
                             config_sites[j].get("username") + "&password=" + config_sites[j].get("password") + "&characterEncoding=UTF8");
@@ -79,7 +79,7 @@ public class Main {
 
                     String sql = "LOAD DATA INFILE '" + ArrList[i].getAbsolutePath() + "' INTO TABLE " + config_sites[j].get("table") + " FIELDS TERMINATED BY ',';";
 
-                    logger.info(sql);
+                    logger.info(config_sites[j].get("name").toString() + ":" + sql);
                     try {
                         stmt.executeUpdate(sql);
                         boolean success = (new File( ArrList[i].getAbsolutePath() )).delete();
@@ -99,6 +99,7 @@ public class Main {
                 }
                 stmt.close();
                 mysql_conn.close();
+                logger.info( "disconnect mysql host:" + config_sites[j].get("host") + "database:" + config_sites[j].get("database") );
 
                 //在超过detectTime时间内没有导入数据，则发警告邮件出去
                 stopTime[j] = System.currentTimeMillis();
@@ -148,7 +149,7 @@ public class Main {
 
     public static void loadConfig(){
 
-        config_opt  = new HashMap();
+        config_opt  = new HashMap<String,String>();
 
         logger.info( "Loading config.xml...");
         viewXML("./config.xml");
@@ -267,7 +268,7 @@ public class Main {
             Node fNode = nList.item(i);
             NodeList cNodes = fNode.getChildNodes();
 
-            config_sites[i] = new HashMap();
+            config_sites[i] = new HashMap<String,String>();
             for (int j = 0; j < cNodes.getLength(); j++) {
                 Node cNode = cNodes.item(j);
                 // 如果这个节点属于Element ,再进行取值
