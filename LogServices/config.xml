@@ -35,6 +35,7 @@
 			<table>c_log</table>
 			<username>root</username>
 			<password>1qaz2wsx</password>
+			<send_mail>true</send_mail>
 		</site>
 		
 		<site>
@@ -48,6 +49,7 @@
 			<table>c_log</table>
 			<username>root</username>
 			<password>1qaz2wsx</password>
+			<send_mail>false</send_mail>
 		</site>
 		
 	</sites>
