@@ -190,7 +190,7 @@ public class Main {
 
         try
         {
-            email.addTo(config_opt.get("emailAddr").toString());
+            email.addTo(emailAddr);
             email.setFrom(config_opt.get("email_from").toString());
             email.setSubject("LogService未检测到日志文件");
             email.setCharset("GB2312");
