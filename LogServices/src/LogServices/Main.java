@@ -180,10 +180,10 @@ public class Main {
     public static void sendMail( String emailAddr , String sitename )
     {
         SimpleEmail email = new SimpleEmail();
-        email.setTLS(Boolean.parseBoolean(config_opt.get("emailTLS").toString()));
-        email.setHostName(config_opt.get("emailSmtp").toString());
-        email.setSSL(Boolean.parseBoolean(config_opt.get("emailSSL").toString()));
-        email.setAuthentication(config_opt.get("emailUser").toString(), config_opt.get("emailPasswd").toString());
+        email.setTLS(Boolean.parseBoolean(config_opt.get("email_TLS").toString()));
+        email.setHostName(config_opt.get("email_smtp").toString());
+        email.setSSL(Boolean.parseBoolean(config_opt.get("email_SSL").toString()));
+        email.setAuthentication(config_opt.get("email_user").toString(), config_opt.get("email_passwd").toString());
 
         Date now=new Date();
         SimpleDateFormat f=new SimpleDateFormat("yyyy年MM月dd日 kk点mm分");
@@ -191,7 +191,7 @@ public class Main {
         try
         {
             email.addTo(config_opt.get("emailAddr").toString());
-            email.setFrom(config_opt.get("emailFrom").toString());
+            email.setFrom(config_opt.get("email_from").toString());
             email.setSubject("LogService未检测到日志文件");
             email.setCharset("GB2312");
             email.setMsg("Site:" + sitename + "\n警告：LogService在" + detectTime/60  + "分钟内未检测到日志文件!\n邮件发送时间："+ f.format(now));
@@ -211,7 +211,7 @@ public class Main {
 
     }
 
-    // 该方法负责把XML文件的内容显示出来
+    // 该方法负责把XML文件的内容读出来转成HashMap
     public static void viewXML(String xmlFile) {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = null;
