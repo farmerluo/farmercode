@@ -16,6 +16,8 @@ import java.sql.*;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import org.xml.sax.SAXException;
+import com.mysql.jdbc.*;
+import com.vertica.*;
 
 
 /**
@@ -33,9 +35,9 @@ public class Main {
     private static Document doc = null;
     private static HashMap<String,String> config_opt = null;
     private static HashMap<String,String>[] config_sites = null;
+    private static java.sql.Connection conn = null;
 
-    public static void main(String[] args) throws SQLException {
-        Connection mysql_conn = null;
+    public static synchronized void main(String[] args) throws SQLException {
         long[] startTime;
         long[] stopTime;
         long[] dealyTime;
@@ -79,33 +81,43 @@ public class Main {
                 //如果没有扫描到数据文件，则退出本次循环
                 if ( ArrList.length == 0 ) continue;
 
-                try {
-                    logger.info( "connecting to mysql host:" + config_sites[j].get("host") + ",database:" + config_sites[j].get("database") );
-                    mysql_conn = DriverManager.getConnection("jdbc:mysql://" + config_sites[j].get("host") + ":"
-                            + config_sites[j].get("port") + "/" + config_sites[j].get("database") + "?user=" +
-                            config_sites[j].get("username") + "&password=" + config_sites[j].get("password") + "&characterEncoding=UTF8");
+                connect_db(config_sites[j].get("dbtype"),
+                           config_sites[j].get("host"),
+                           config_sites[j].get("database"),
+                           config_sites[j].get("port"),
+                           config_sites[j].get("username"),
+                           config_sites[j].get("password")
+                           );
 
-                } catch (SQLException sQLException) {
-                    Done = 1;
-                    logger.error( sQLException );
-                }
-
-                Statement stmt = null;
-                stmt = mysql_conn.createStatement();
+                java.sql.Statement stmt = null;
+                stmt = conn.createStatement();
 
                 Done = 0;
                 for (int i = 0;i < ArrList.length; i++ ) {
 
-                    String sql = "LOAD DATA INFILE '" + ArrList[i].getAbsolutePath() + "' INTO TABLE " + config_sites[j].get("table") + " FIELDS TERMINATED BY ',';";
+                    String sql = "";
+                    if ( config_sites[j].get("dbtype").equals("mysql") ) {
+                        sql = "LOAD DATA INFILE '" + ArrList[i].getAbsolutePath() + "' INTO TABLE "
+                              + config_sites[j].get("table") + " FIELDS TERMINATED BY ',';";
+                    } else {
+                        Date now=new Date();
+                        SimpleDateFormat f=new SimpleDateFormat("yyyy.MM.dd");
+                        
+                        sql = "COPY "+ config_sites[j].get("table") + " FROM '" + ArrList[i].getAbsolutePath() 
+                              + "' DELIMITER ',' ESCAPE AS '\"' EXCEPTIONS 'except.log."+ f.format(now)
+                              +"' REJECTED DATA 'rejects.log."+ f.format(now) +"';";
+                    }
 
                     logger.info(config_sites[j].get("name").toString() + ":" + sql);
                     try {
+
                         stmt.executeUpdate(sql);
                         boolean success = (new File( ArrList[i].getAbsolutePath() )).delete();
                         if (!success) {
                             logger.info( "Delete file " + ArrList[i].getAbsolutePath() + "failed" );
                         }
                         startTime[j] = System.currentTimeMillis();
+
                     } catch (SQLException sQLException) {
                         Done = 1;
                         logger.error( sQLException );
@@ -117,7 +129,7 @@ public class Main {
                     }
                 }
                 stmt.close();
-                mysql_conn.close();
+                conn.close();
                 logger.info( "disconnect mysql host:" + config_sites[j].get("host") + ",database:" + config_sites[j].get("database") );
 
             }
@@ -139,7 +151,38 @@ public class Main {
   
     }
 
-    public static void destroyExit(){
+    private static synchronized void connect_db( String dbtype , String host, String dbname, String port, String username, String password){
+        try {
+            logger.info( "connecting to " + dbtype + " database server:" + host + ",database name:" + dbname );
+            if ( !dbtype.equals("mysql") && !dbtype.equals("vertica") ) {
+                Done = 1;
+                logger.error( "dbtype error!" );
+                destroyExit();
+            }
+
+            if ( dbtype.equals("vertica") )
+            {
+                try {
+                    Class.forName("com.vertica.Driver");
+                    } catch (ClassNotFoundException e) {
+                    // Could not find the driver class. Likely an issue
+                    // with finding the .jar file.
+                    System.err.println("Could not find the JDBC driver class.");
+                    e.printStackTrace();
+                    return; // Bail out. We cannot do anything further.
+                    }
+            }
+
+            conn = DriverManager.getConnection("jdbc:" + dbtype +  "://" + host + ":" + port + "/" + dbname + "?user=" +
+                    username + "&password=" + password);
+
+        } catch (SQLException sQLException) {
+            Done = 1;
+            logger.error( sQLException );
+        }
+    }
+
+    public static synchronized void destroyExit(){
         logger.info("Waiting for exit LogServices ...");
         ExitFlag = 0;
         while ( Done == 0 ) {

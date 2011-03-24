@@ -28,13 +28,15 @@
 			<name>mixi-top-city.rockyouasia.jp</name>
 			<!-- extend name of data file -->
 			<extend_name>.csv</extend_name>
-			<path>e:\csv</path>
-			<host>192.168.20.23</host>
-			<port>5029</port>
-			<database>logs</database>
-			<table>c_log</table>
-			<username>root</username>
-			<password>1qaz2wsx</password>
+			<path>d:\csv\mixi</path>
+			<!-- dbtype:mysql is mysql server or infobright,vertica is vertica server -->
+			<dbtype>vertica</dbtype>
+			<host>xx.xx.xx.xx</host>
+			<port>5433</port>
+			<database>topcity</database>
+			<table>mixi.c_log</table>
+			<username>dbadmin</username>
+			<password>password</password>
 			<send_mail>true</send_mail>
 		</site>
 		
@@ -42,14 +44,16 @@
 			<name>hangame-top-city.rockyouasia.jp</name>
 			<!-- extend name of data file -->
 			<extend_name>.csv</extend_name>
-			<path>e:\csv</path>
-			<host>192.168.20.23</host>
-			<port>5029</port>
-			<database>logs</database>
-			<table>c_log</table>
-			<username>root</username>
-			<password>1qaz2wsx</password>
-			<send_mail>false</send_mail>
+			<path>d:\csv\hangame</path>
+			<!-- dbtype:mysql is mysql server or infobright,vertica is vertica server -->
+			<dbtype>vertica</dbtype>
+			<host>xx.xx.xx.xx</host>
+			<port>5433</port>
+			<database>topcity</database>
+			<table>hangame.c_log</table>
+			<username>dbadmin</username>
+			<password>password</password>
+			<send_mail>true</send_mail>
 		</site>
 		
 	</sites>
