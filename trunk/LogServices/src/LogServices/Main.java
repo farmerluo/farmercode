@@ -163,13 +163,12 @@ public class Main {
             if ( dbtype.equals("vertica") )
             {
                 try {
-                    Class.forName("com.vertica.Driver");
+                        Class.forName("com.vertica.Driver");
                     } catch (ClassNotFoundException e) {
-                    // Could not find the driver class. Likely an issue
-                    // with finding the .jar file.
-                    System.err.println("Could not find the JDBC driver class.");
-                    e.printStackTrace();
-                    return; // Bail out. We cannot do anything further.
+                        Done = 1;
+                        logger.error("Could not find the JDBC driver class.");
+                        logger.error(e.getMessage());
+                        destroyExit();
                     }
             }
 
