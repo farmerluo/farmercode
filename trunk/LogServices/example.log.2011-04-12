@@ -1,0 +1,1779 @@
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - LogServices start ...
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - Loading config.xml...
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_TLS == true
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - dealy == 60
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_SSL == true
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - email_passwd == 1234567890
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - detect_time == 180
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - site 0:
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - port == 5433
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - username == dbadmin
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - dbtype == vertica
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - host == xx.xx.xx.xx
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - name == mixi-top-city.rockyouasia.jp
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - path == d:\csv\mixi
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - extend_name == .csv
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - table == mixi.c_log
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - password == password
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - send_mail == true
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - database == topcity
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - site 1:
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - port == 5433
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - username == dbadmin
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - dbtype == vertica
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - host == xx.xx.xx.xx
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - name == hangame-top-city.rockyouasia.jp
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - path == d:\csv\hangame
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - extend_name == .csv
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - table == hangame.c_log
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - password == password
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - send_mail == true
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - database == topcity
+2011-04-12 13:14:32:INFO Thread-0 LogServices.Main - connecting to vertica database server:xx.xx.xx.xx,database name:topcity
+2011-04-12 13:14:35:ERROR Thread-0 LogServices.Main - com.vertica.util.PSQLException: The connection attempt failed.
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - LogServices start ...
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - Loading config.xml...
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_TLS == true
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - dealy == 60
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_SSL == true
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - email_passwd == 1234567890
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - detect_time == 180
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - site 0:
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - port == 5433
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - username == dbadmin
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - dbtype == vertica
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - host == xx.xx.xx.xx
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - name == mixi-top-city.rockyouasia.jp
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - path == d:\csv\mixi
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - extend_name == .csv
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - table == mixi.c_log
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - password == password
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - send_mail == true
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - database == topcity
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - site 1:
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - port == 5433
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - username == dbadmin
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - dbtype == vertica
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - host == xx.xx.xx.xx
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - name == hangame-top-city.rockyouasia.jp
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - path == d:\csv\hangame
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - extend_name == .csv
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - table == hangame.c_log
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - password == password
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - send_mail == true
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - database == topcity
+2011-04-12 13:17:58:INFO LoadData LogServices.Main - connecting to vertica database server:xx.xx.xx.xx,database name:topcity
+2011-04-12 13:18:01:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: The connection attempt failed.
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - LogServices start ...
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - Loading config.xml...
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_TLS == true
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - dealy == 60
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_SSL == true
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - email_passwd == 1234567890
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - detect_time == 180
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - site 0:
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - port == 5433
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - username == dbadmin
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - dbtype == vertica
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - host == 192.168.1.107
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - path == d:\csv\fbtw
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - extend_name == .csv
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - table == fbtw.c_log
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - password == dbadmin@1.107
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - send_mail == true
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - database == topcity
+2011-04-12 13:34:08:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 13:34:10:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 13:34:10:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 13:34:10:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 13:34:11:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 13:34:11:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 13:34:11:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 13:34:11:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 13:34:11:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - LogServices start ...
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - Loading config.xml...
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_TLS == true
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - dealy == 60
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_SSL == true
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - email_passwd == 1234567890
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - detect_time == 180
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - site 0:
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - port == 5433
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - username == dbadmin
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - dbtype == vertica
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - host == 192.168.1.107
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - path == d:\csv\fbtw
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - extend_name == .csv
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - table == fbtw.c_log
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - password == dbadmin@1.107
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - send_mail == true
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - database == topcity
+2011-04-12 13:41:24:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 13:41:25:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 13:41:26:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 13:41:26:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 13:41:26:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 13:41:26:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 13:41:27:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 13:41:27:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 13:41:27:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - LogServices start ...
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - Loading config.xml...
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_TLS == true
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - dealy == 60
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_SSL == true
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - detect_time == 180
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - site 0:
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - port == 5433
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - username == dbadmin
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - dbtype == vertica
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - host == 192.168.1.107
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - extend_name == .csv
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - table == fbtw.c_log
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - send_mail == true
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - database == topcity
+2011-04-12 14:11:11:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:11:12:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:11:13:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:11:13:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:11:13:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:11:13:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:11:13:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:11:13:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:11:13:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:13:46:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:13:46:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:13:46:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:13:46:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:13:46:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:13:46:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:13:46:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:13:46:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:13:46:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:13:46:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:13:46:INFO main LogServices.Main - site 0:
+2011-04-12 14:13:46:INFO main LogServices.Main - port == 5433
+2011-04-12 14:13:46:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:13:46:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:13:46:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:13:46:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:13:46:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:13:46:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:13:46:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:13:46:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:13:46:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:13:46:INFO main LogServices.Main - database == topcity
+2011-04-12 14:13:46:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:13:50:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:13:50:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:13:50:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:13:51:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:13:51:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:13:51:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:13:51:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:13:51:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:14:49:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:14:49:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:14:49:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:14:49:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:14:49:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:14:49:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:14:49:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:14:49:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:14:49:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:14:49:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:14:49:INFO main LogServices.Main - site 0:
+2011-04-12 14:14:49:INFO main LogServices.Main - port == 5433
+2011-04-12 14:14:49:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:14:49:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:14:49:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:14:49:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:14:49:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:14:49:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:14:49:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:14:49:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:14:49:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:14:49:INFO main LogServices.Main - database == topcity
+2011-04-12 14:14:49:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:14:50:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:14:51:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:14:51:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:14:51:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:14:51:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:14:52:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:14:52:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:14:52:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:15:52:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:15:53:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:15:53:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:15:53:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:15:54:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:15:54:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:15:54:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:15:54:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:15:54:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:16:47:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:16:47:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:16:47:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:16:47:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:16:47:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:16:47:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:16:47:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:16:47:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:16:47:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:16:47:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:16:47:INFO main LogServices.Main - site 0:
+2011-04-12 14:16:47:INFO main LogServices.Main - port == 5433
+2011-04-12 14:16:47:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:16:47:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:16:47:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:16:47:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:16:47:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:16:47:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:16:47:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:16:47:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:16:47:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:16:47:INFO main LogServices.Main - database == topcity
+2011-04-12 14:16:47:INFO CheckTimeout LogServices.Main - fbtw starttime1302589007578 stopTime = 0
+2011-04-12 14:16:47:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:16:48:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:16:49:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:16:49:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:16:49:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:16:49:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:16:50:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:16:50:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:16:50:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:17:50:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:17:51:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:17:51:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:17:51:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:17:51:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:17:51:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:17:52:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:17:52:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:17:52:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:18:52:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:18:53:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:18:53:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:18:53:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:18:55:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:18:55:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:18:55:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:18:55:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:18:55:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:20:45:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:20:45:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:20:45:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:20:45:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:20:45:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:20:45:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:20:45:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:20:45:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:20:45:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:20:45:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:20:45:INFO main LogServices.Main - site 0:
+2011-04-12 14:20:45:INFO main LogServices.Main - port == 5433
+2011-04-12 14:20:45:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:20:45:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:20:45:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:20:45:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:20:45:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:20:45:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:20:45:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:20:45:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:20:45:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:20:45:INFO main LogServices.Main - database == topcity
+2011-04-12 14:20:45:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:20:46:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:20:46:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:20:46:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:20:47:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:20:47:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:20:47:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:20:47:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:20:47:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:21:05:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:21:05:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:21:05:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:21:05:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:21:05:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:21:05:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:21:05:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:21:05:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:21:05:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:21:05:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:21:05:INFO main LogServices.Main - site 0:
+2011-04-12 14:21:05:INFO main LogServices.Main - port == 5433
+2011-04-12 14:21:05:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:21:05:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:21:05:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:21:05:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:21:05:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:21:05:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:21:05:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:21:05:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:21:05:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:21:05:INFO main LogServices.Main - database == topcity
+2011-04-12 14:21:05:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:05:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:21:06:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:06:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:21:07:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:21:07:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:21:07:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:21:07:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:21:07:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:08:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:21:08:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:21:08:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:21:08:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:09:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:10:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:11:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:12:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:13:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:14:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:15:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:16:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:17:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:18:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:19:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:20:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:21:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:22:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:23:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:24:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:25:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:26:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:27:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:28:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:29:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:30:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:31:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:32:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:33:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:34:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:35:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:36:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:37:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:38:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:39:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:40:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:41:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:42:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:43:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:44:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:45:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:46:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:47:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:48:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:49:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:50:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:51:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:52:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:53:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:54:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:55:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:56:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:57:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:58:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:21:59:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:00:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:01:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:02:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:03:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:04:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:05:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:06:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:07:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:08:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:22:08:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:09:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:22:09:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:22:09:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:22:09:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:10:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:22:10:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:22:10:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:11:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:22:11:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:22:11:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:22:11:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:12:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:13:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:14:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:15:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:16:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:17:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:18:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:19:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:20:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:21:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:22:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:23:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:24:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:25:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:26:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:27:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:28:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:29:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:30:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:31:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:32:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:33:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:34:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:35:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:36:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:37:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:38:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:39:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:40:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:41:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:42:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:43:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:44:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:45:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:46:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:47:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:48:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:49:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:50:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:51:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:52:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:53:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:54:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:55:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:56:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:57:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:58:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:22:59:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:23:00:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:23:01:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:23:02:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:23:03:INFO CheckTimeout LogServices.Main - fbtw starttime1302589265777 stopTime = 0
+2011-04-12 14:24:29:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:24:29:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:24:29:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:24:29:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:24:29:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:24:29:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:24:29:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:24:29:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:24:29:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:24:29:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:24:29:INFO main LogServices.Main - site 0:
+2011-04-12 14:24:29:INFO main LogServices.Main - port == 5433
+2011-04-12 14:24:29:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:24:29:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:24:29:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:24:29:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:24:29:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:24:29:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:24:29:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:24:29:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:24:29:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:24:29:INFO main LogServices.Main - database == topcity
+2011-04-12 14:24:29:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:24:30:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:24:31:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:24:31:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:24:31:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:24:31:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:24:32:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:24:32:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:24:32:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:25:58:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:25:58:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:25:58:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:25:58:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:25:58:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:25:58:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:25:58:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:25:58:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:25:58:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:25:58:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:25:58:INFO main LogServices.Main - site 0:
+2011-04-12 14:25:58:INFO main LogServices.Main - port == 5433
+2011-04-12 14:25:58:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:25:58:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:25:58:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:25:58:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:25:58:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:25:58:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:25:58:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:25:58:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:25:58:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:25:58:INFO main LogServices.Main - database == topcity
+2011-04-12 14:25:58:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:25:59:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:26:00:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:26:00:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:26:00:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:26:00:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:26:01:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:26:01:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:26:01:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:26:56:INFO main LogServices.Main - LogServices start ...
+2011-04-12 14:26:56:INFO main LogServices.Main - email_TLS == true
+2011-04-12 14:26:56:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 14:26:56:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 14:26:56:INFO main LogServices.Main - dealy == 60
+2011-04-12 14:26:56:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 14:26:56:INFO main LogServices.Main - email_SSL == true
+2011-04-12 14:26:56:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 14:26:56:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 14:26:56:INFO main LogServices.Main - detect_time == 180
+2011-04-12 14:26:56:INFO main LogServices.Main - site 0:
+2011-04-12 14:26:56:INFO main LogServices.Main - port == 5433
+2011-04-12 14:26:56:INFO main LogServices.Main - username == dbadmin
+2011-04-12 14:26:56:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 14:26:56:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 14:26:56:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 14:26:56:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 14:26:56:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 14:26:56:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 14:26:56:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 14:26:56:INFO main LogServices.Main - send_mail == true
+2011-04-12 14:26:56:INFO main LogServices.Main - database == topcity
+2011-04-12 14:26:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589616415
+2011-04-12 14:26:56:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:26:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589616415
+2011-04-12 14:26:57:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:26:57:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:26:57:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:26:58:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:26:58:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:26:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589618405
+2011-04-12 14:26:58:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:26:58:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:26:58:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:26:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:27:58:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:27:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:28:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589618888
+2011-04-12 14:28:00:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:28:01:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:28:01:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:28:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589681038
+2011-04-12 14:28:01:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:28:01:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:28:02:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:28:02:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:28:02:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:28:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:28:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:29:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:29:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:29:02:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:29:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:29:02:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:29:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589682003
+2011-04-12 14:29:03:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:29:03:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:29:03:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:29:03:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:29:04:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:29:04:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:29:04:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:29:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:29:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:04:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:30:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:05:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:30:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589744405
+2011-04-12 14:30:06:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:30:06:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:30:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589806958
+2011-04-12 14:30:07:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:30:07:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:30:07:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:30:07:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:30:07:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:30:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:30:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:07:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:31:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589807927
+2011-04-12 14:31:08:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:31:09:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:31:09:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:31:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589869363
+2011-04-12 14:31:09:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:31:09:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:31:10:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:31:10:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:31:10:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:31:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:31:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:10:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:32:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:11:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:32:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589870326
+2011-04-12 14:32:11:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:32:11:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:32:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589931783
+2011-04-12 14:32:12:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:32:12:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:32:13:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:32:13:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:32:13:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:32:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:32:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:13:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:33:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:14:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:33:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589933343
+2011-04-12 14:33:14:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:33:14:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:33:15:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:33:15:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:33:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589995268
+2011-04-12 14:33:15:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:33:15:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:33:15:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:33:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:20:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:21:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:22:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:23:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:24:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:25:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:26:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:27:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:28:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:29:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:30:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:31:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:32:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:33:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:34:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:35:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:36:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:37:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:38:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:39:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:40:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:41:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:42:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:43:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:44:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:45:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:46:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:47:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:48:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:49:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:50:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:51:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:52:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:53:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:54:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:55:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:56:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:57:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:58:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:33:59:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:00:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:01:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:02:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:03:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:04:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:05:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:06:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:07:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:08:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:09:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:10:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:11:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:12:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:13:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:14:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:15:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:15:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 14:34:16:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:17:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:18:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:19:INFO CheckTimeout LogServices.Main - fbtw start time1302589995748
+2011-04-12 14:34:19:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:34:20:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 14:34:20:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:34:20:INFO CheckTimeout LogServices.Main - fbtw start time1302590060187
+2011-04-12 14:34:20:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 14:34:20:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 14:34:21:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 14:34:21:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 14:34:21:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 14:34:21:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:22:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:23:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:24:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:25:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:26:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:27:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:28:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:29:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:30:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:31:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:32:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:33:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:34:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:35:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:36:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:37:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:38:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:39:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:40:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:41:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:42:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:43:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:44:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:45:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:46:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 14:34:47:INFO CheckTimeout LogServices.Main - fbtw start time1302590061148
+2011-04-12 15:05:29:INFO main LogServices.Main - LogServices start ...
+2011-04-12 15:05:29:INFO main LogServices.Main - email_TLS == true
+2011-04-12 15:05:29:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 15:05:29:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 15:05:29:INFO main LogServices.Main - dealy == 60
+2011-04-12 15:05:29:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 15:05:29:INFO main LogServices.Main - email_SSL == true
+2011-04-12 15:05:29:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 15:05:29:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 15:05:29:INFO main LogServices.Main - detect_time == 180
+2011-04-12 15:05:29:INFO main LogServices.Main - site 0:
+2011-04-12 15:05:29:INFO main LogServices.Main - port == 5433
+2011-04-12 15:05:29:INFO main LogServices.Main - username == dbadmin
+2011-04-12 15:05:29:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 15:05:29:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 15:05:29:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 15:05:29:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 15:05:29:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 15:05:29:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 15:05:29:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 15:05:29:INFO main LogServices.Main - send_mail == true
+2011-04-12 15:05:29:INFO main LogServices.Main - database == topcity
+2011-04-12 15:05:29:INFO CheckTimeout LogServices.Main - fbtw start time1302591929891
+2011-04-12 15:05:29:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 15:05:30:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:05:31:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 15:05:31:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:05:31:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 15:05:31:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:05:32:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 15:05:32:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 15:05:32:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 15:05:39:INFO CheckTimeout LogServices.Main - fbtw start time1302591939906
+2011-04-12 15:05:49:INFO CheckTimeout LogServices.Main - fbtw start time1302591949921
+2011-04-12 15:05:59:INFO CheckTimeout LogServices.Main - fbtw start time1302591959936
+2011-04-12 15:06:09:INFO CheckTimeout LogServices.Main - fbtw start time1302591969952
+2011-04-12 15:06:19:INFO CheckTimeout LogServices.Main - fbtw start time1302591979967
+2011-04-12 15:06:29:INFO CheckTimeout LogServices.Main - fbtw start time1302591989982
+2011-04-12 15:06:32:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 15:06:33:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:06:33:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 15:06:33:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:06:34:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 15:06:34:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:06:34:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 15:06:34:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 15:06:34:INFO LoadData LogServices.Main - Sleep Time:60s
+2011-04-12 15:06:39:INFO CheckTimeout LogServices.Main - fbtw start time1302591999997
+2011-04-12 15:06:50:INFO CheckTimeout LogServices.Main - fbtw start time1302592010012
+2011-04-12 15:07:00:INFO CheckTimeout LogServices.Main - fbtw start time1302592020028
+2011-04-12 15:55:44:INFO main LogServices.Main - LogServices start ...
+2011-04-12 15:55:44:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 15:55:44:INFO main LogServices.Main - email_TLS == true
+2011-04-12 15:55:44:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 15:55:44:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 15:55:44:INFO main LogServices.Main - dealy == 60
+2011-04-12 15:55:44:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 15:55:44:INFO main LogServices.Main - email_SSL == true
+2011-04-12 15:55:44:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 15:55:44:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 15:55:44:INFO main LogServices.Main - detect_time == 180
+2011-04-12 15:55:44:INFO main LogServices.Main - site 0:
+2011-04-12 15:55:44:INFO main LogServices.Main - port == 5433
+2011-04-12 15:55:44:INFO main LogServices.Main - username == dbadmin
+2011-04-12 15:55:44:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 15:55:44:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 15:55:44:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 15:55:44:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 15:55:44:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 15:55:44:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 15:55:44:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 15:55:44:INFO main LogServices.Main - send_mail == true
+2011-04-12 15:55:44:INFO main LogServices.Main - database == topcity
+2011-04-12 15:55:44:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 15:55:45:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:55:46:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 15:55:46:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:55:46:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 15:55:46:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:55:47:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 15:55:47:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 15:55:47:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 15:56:27:INFO main LogServices.Main - LogServices start ...
+2011-04-12 15:56:27:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 15:56:27:INFO main LogServices.Main - email_TLS == true
+2011-04-12 15:56:27:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 15:56:27:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 15:56:27:INFO main LogServices.Main - dealy == 60
+2011-04-12 15:56:27:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 15:56:27:INFO main LogServices.Main - email_SSL == true
+2011-04-12 15:56:27:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 15:56:27:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 15:56:27:INFO main LogServices.Main - detect_time == 180
+2011-04-12 15:56:27:INFO main LogServices.Main - site 0:
+2011-04-12 15:56:27:INFO main LogServices.Main - port == 5433
+2011-04-12 15:56:27:INFO main LogServices.Main - username == dbadmin
+2011-04-12 15:56:27:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 15:56:27:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 15:56:27:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 15:56:27:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 15:56:27:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 15:56:27:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 15:56:27:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 15:56:27:INFO main LogServices.Main - send_mail == true
+2011-04-12 15:56:27:INFO main LogServices.Main - database == topcity
+2011-04-12 15:56:27:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 15:56:28:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:56:29:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 15:56:29:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:56:29:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 15:56:29:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:56:30:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 15:56:30:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 15:56:30:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 15:58:21:INFO main LogServices.Main - LogServices start ...
+2011-04-12 15:58:21:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 15:58:21:INFO main LogServices.Main - email_TLS == true
+2011-04-12 15:58:21:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 15:58:21:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 15:58:21:INFO main LogServices.Main - dealy == 60
+2011-04-12 15:58:21:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 15:58:21:INFO main LogServices.Main - email_SSL == true
+2011-04-12 15:58:21:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 15:58:21:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 15:58:21:INFO main LogServices.Main - detect_time == 180
+2011-04-12 15:58:21:INFO main LogServices.Main - site 0:
+2011-04-12 15:58:21:INFO main LogServices.Main - port == 5433
+2011-04-12 15:58:21:INFO main LogServices.Main - username == dbadmin
+2011-04-12 15:58:21:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 15:58:21:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 15:58:21:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 15:58:21:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 15:58:21:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 15:58:21:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 15:58:21:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 15:58:21:INFO main LogServices.Main - send_mail == true
+2011-04-12 15:58:21:INFO main LogServices.Main - database == topcity
+2011-04-12 15:58:21:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 15:58:23:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:58:23:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 15:58:23:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:58:23:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 15:58:23:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:58:24:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 15:58:24:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 15:58:24:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 15:59:07:INFO main LogServices.Main - LogServices start ...
+2011-04-12 15:59:07:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 15:59:07:INFO main LogServices.Main - email_TLS == true
+2011-04-12 15:59:07:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 15:59:07:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 15:59:07:INFO main LogServices.Main - dealy == 60
+2011-04-12 15:59:07:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 15:59:07:INFO main LogServices.Main - email_SSL == true
+2011-04-12 15:59:07:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 15:59:07:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 15:59:07:INFO main LogServices.Main - detect_time == 180
+2011-04-12 15:59:07:INFO main LogServices.Main - site 0:
+2011-04-12 15:59:07:INFO main LogServices.Main - port == 5433
+2011-04-12 15:59:07:INFO main LogServices.Main - username == dbadmin
+2011-04-12 15:59:07:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 15:59:07:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 15:59:07:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 15:59:07:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 15:59:07:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 15:59:07:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 15:59:07:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 15:59:07:INFO main LogServices.Main - send_mail == true
+2011-04-12 15:59:07:INFO main LogServices.Main - database == topcity
+2011-04-12 15:59:07:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 15:59:07:INFO CheckTimeout LogServices.Main - fbtw start time1302595147587
+2011-04-12 15:59:08:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:59:09:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 15:59:09:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:59:09:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 15:59:09:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 15:59:10:ERROR LoadData LogServices.Main - import failed:com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 15:59:10:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 15:59:10:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 15:59:17:INFO CheckTimeout LogServices.Main - fbtw start time1302595157609
+2011-04-12 15:59:27:INFO CheckTimeout LogServices.Main - fbtw start time1302595167609
+2011-04-12 16:03:58:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:03:58:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:03:58:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:03:58:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:03:58:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:03:58:INFO main LogServices.Main - dealy == 60
+2011-04-12 16:03:58:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:03:58:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:03:58:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:03:58:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:03:58:INFO main LogServices.Main - detect_time == 180
+2011-04-12 16:03:58:INFO main LogServices.Main - site 0:
+2011-04-12 16:03:58:INFO main LogServices.Main - port == 5433
+2011-04-12 16:03:58:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:03:58:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:03:58:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:03:58:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:03:58:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:03:58:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:03:58:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:03:58:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:03:58:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:03:58:INFO main LogServices.Main - database == topcity
+2011-04-12 16:03:58:INFO CheckTimeout LogServices.Main - fbtw start time1302595438524
+2011-04-12 16:03:58:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:04:02:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:04:03:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:04:03:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:04:03:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:04:03:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:04:03:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:04:03:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:04:03:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 16:04:08:INFO CheckTimeout LogServices.Main - fbtw start time1302595448526
+2011-04-12 16:05:43:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:05:43:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:05:43:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:05:43:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:05:44:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:05:44:INFO main LogServices.Main - dealy == 60
+2011-04-12 16:05:44:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:05:44:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:05:44:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:05:44:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:05:44:INFO main LogServices.Main - detect_time == 180
+2011-04-12 16:05:44:INFO main LogServices.Main - site 0:
+2011-04-12 16:05:44:INFO main LogServices.Main - port == 5433
+2011-04-12 16:05:44:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:05:44:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:05:44:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:05:44:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:05:44:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:05:44:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:05:44:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:05:44:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:05:44:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:05:44:INFO main LogServices.Main - database == topcity
+2011-04-12 16:05:44:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:05:44:INFO CheckTimeout LogServices.Main - fbtw start time1302595544121
+2011-04-12 16:05:45:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:05:45:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:05:45:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:05:46:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:05:46:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:05:46:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:05:46:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:05:46:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 16:05:54:INFO CheckTimeout LogServices.Main - fbtw start time1302595554158
+2011-04-12 16:06:04:INFO CheckTimeout LogServices.Main - fbtw start time1302595564160
+2011-04-12 16:06:10:INFO Thread-3 LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:06:10:INFO Thread-3 LogServices.Main - LogServices exit done.
+2011-04-12 16:06:10:ERROR LoadData LogServices.Main - java.lang.InterruptedException: sleep interrupted
+2011-04-12 16:06:10:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:06:10:ERROR CheckTimeout LogServices.Main - java.lang.InterruptedException: sleep interrupted
+2011-04-12 16:06:10:INFO CheckTimeout LogServices.Main - fbtw start time1302595564160
+2011-04-12 16:07:45:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:07:45:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:07:45:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:07:45:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:07:45:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:07:45:INFO main LogServices.Main - dealy == 60
+2011-04-12 16:07:45:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:07:45:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:07:45:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:07:45:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:07:45:INFO main LogServices.Main - detect_time == 180
+2011-04-12 16:07:45:INFO main LogServices.Main - site 0:
+2011-04-12 16:07:45:INFO main LogServices.Main - port == 5433
+2011-04-12 16:07:45:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:07:45:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:07:45:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:07:45:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:07:45:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:07:45:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:07:45:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:07:45:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:07:45:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:07:45:INFO main LogServices.Main - database == topcity
+2011-04-12 16:07:45:INFO CheckTimeout LogServices.Main - fbtw start time1302595665465
+2011-04-12 16:07:45:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:07:46:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:07:47:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:07:47:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:07:47:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:07:47:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:07:49:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:07:49:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:07:49:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 16:07:55:INFO CheckTimeout LogServices.Main - fbtw start time1302595675473
+2011-04-12 16:08:05:INFO CheckTimeout LogServices.Main - fbtw start time1302595685475
+2011-04-12 16:08:07:INFO Thread-3 LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:08:07:INFO Thread-3 LogServices.Main - LogServices exit done.
+2011-04-12 16:09:13:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:09:13:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:09:13:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:09:13:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:09:13:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:09:13:INFO main LogServices.Main - dealy == 60
+2011-04-12 16:09:13:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:09:13:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:09:13:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:09:13:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:09:13:INFO main LogServices.Main - detect_time == 180
+2011-04-12 16:09:13:INFO main LogServices.Main - site 0:
+2011-04-12 16:09:13:INFO main LogServices.Main - port == 5433
+2011-04-12 16:09:13:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:09:13:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:09:13:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:09:13:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:09:13:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:09:13:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:09:13:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:09:13:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:09:13:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:09:13:INFO main LogServices.Main - database == topcity
+2011-04-12 16:09:13:INFO CheckTimeout LogServices.Main - fbtw start time1302595753285
+2011-04-12 16:09:13:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:09:14:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:09:14:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:09:14:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:09:15:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:09:15:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:09:15:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:09:15:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:09:15:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 16:09:18:INFO ShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:09:18:INFO ShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:18:39:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:18:39:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:18:39:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:18:39:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:18:39:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:18:39:INFO main LogServices.Main - dealy == 60
+2011-04-12 16:18:39:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:18:39:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:18:39:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:18:39:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:18:39:INFO main LogServices.Main - detect_time == 180
+2011-04-12 16:18:39:INFO main LogServices.Main - site 0:
+2011-04-12 16:18:39:INFO main LogServices.Main - port == 5433
+2011-04-12 16:18:39:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:18:39:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:18:39:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:18:39:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:18:39:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:18:39:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:18:39:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:18:39:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:18:39:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:18:39:INFO main LogServices.Main - database == topcity
+2011-04-12 16:18:39:INFO CheckTimeout LogServices.Main - fbtw start time1302596319207
+2011-04-12 16:18:39:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:18:40:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:18:40:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:18:40:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:18:41:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:18:41:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:18:41:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:18:41:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:18:41:INFO LoadData LogServices.Main - Sleep Time:60 minute.
+2011-04-12 16:18:49:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:18:49:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:22:59:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:22:59:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:22:59:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:22:59:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:22:59:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:22:59:INFO main LogServices.Main - dealy == 30
+2011-04-12 16:22:59:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:22:59:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:22:59:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:22:59:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:22:59:INFO main LogServices.Main - detect_time == 60
+2011-04-12 16:22:59:INFO main LogServices.Main - site 0:
+2011-04-12 16:22:59:INFO main LogServices.Main - port == 5433
+2011-04-12 16:22:59:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:22:59:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:22:59:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:22:59:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:22:59:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:22:59:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:22:59:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:22:59:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:22:59:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:22:59:INFO main LogServices.Main - database == topcity
+2011-04-12 16:22:59:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:23:00:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:23:00:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:23:00:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:23:01:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:23:01:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:23:01:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:23:01:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:23:01:INFO LoadData LogServices.Main - Sleep Time:30 minute.
+2011-04-12 16:23:31:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:23:32:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:23:33:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:23:33:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:23:34:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:23:35:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:23:35:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:23:35:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:23:35:INFO LoadData LogServices.Main - Sleep Time:30 minute.
+2011-04-12 16:24:05:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:24:06:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:24:06:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:24:06:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:24:07:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:24:07:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:24:07:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:24:07:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:24:07:INFO LoadData LogServices.Main - Sleep Time:30 minute.
+2011-04-12 16:24:09:INFO CheckTimeout LogServices.Main - no data import in 60 second, warning mail sending.
+2011-04-12 16:24:09:INFO CheckTimeout LogServices.Main - send mail to:farmer.luo@139.com
+2011-04-12 16:24:13:ERROR CheckTimeout LogServices.Main - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:25
+2011-04-12 16:24:13:INFO CheckTimeout LogServices.Main - send mail to:farmer.luo@gmail.com
+2011-04-12 16:24:15:ERROR CheckTimeout LogServices.Main - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:25
+2011-04-12 16:24:15:INFO CheckTimeout LogServices.Main - warning mail send done.
+2011-04-12 16:24:37:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:24:38:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:24:39:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:24:39:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:24:39:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:24:39:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:24:40:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:24:40:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:24:40:INFO LoadData LogServices.Main - Sleep Time:30 minute.
+2011-04-12 16:24:52:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:24:52:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:38:27:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:38:27:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:38:28:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:38:28:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:38:28:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:38:28:INFO main LogServices.Main - dealy == 30
+2011-04-12 16:38:28:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:38:28:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:38:28:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:38:28:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:38:28:INFO main LogServices.Main - detect_time == 60
+2011-04-12 16:38:28:INFO main LogServices.Main - site 0:
+2011-04-12 16:38:28:INFO main LogServices.Main - port == 5433
+2011-04-12 16:38:28:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:38:28:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:38:28:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:38:28:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:38:28:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:38:28:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:38:28:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:38:28:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:38:28:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:38:28:INFO main LogServices.Main - database == topcity
+2011-04-12 16:38:28:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:38:29:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:38:29:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:38:29:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:38:30:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:38:30:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:38:30:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:38:30:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:38:30:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 16:38:33:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:38:33:INFO doShutDownWork LogServices.Main - LoadData status: isAlive
+2011-04-12 16:38:33:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:40:10:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:40:10:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:40:10:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:40:10:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:40:10:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:40:10:INFO main LogServices.Main - dealy == 30
+2011-04-12 16:40:10:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:40:10:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:40:10:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:40:10:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:40:10:INFO main LogServices.Main - detect_time == 60
+2011-04-12 16:40:10:INFO main LogServices.Main - site 0:
+2011-04-12 16:40:10:INFO main LogServices.Main - port == 5433
+2011-04-12 16:40:10:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:40:10:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:40:10:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:40:10:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:40:10:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:40:10:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:40:10:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:40:10:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:40:10:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:40:10:INFO main LogServices.Main - database == topcity
+2011-04-12 16:40:10:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:40:12:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:40:12:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:40:12:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:40:13:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:40:13:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:40:13:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:40:13:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:40:13:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 16:40:17:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:40:17:INFO doShutDownWork LogServices.Main - LoadData status: isAlive
+2011-04-12 16:40:17:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:40:17:ERROR LoadData LogServices.Main - java.lang.InterruptedException: sleep interrupted
+2011-04-12 16:42:18:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:42:18:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:42:19:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:42:19:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:42:19:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:42:19:INFO main LogServices.Main - dealy == 30
+2011-04-12 16:42:19:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:42:19:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:42:19:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:42:19:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:42:19:INFO main LogServices.Main - detect_time == 60
+2011-04-12 16:42:19:INFO main LogServices.Main - site 0:
+2011-04-12 16:42:19:INFO main LogServices.Main - port == 5433
+2011-04-12 16:42:19:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:42:19:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:42:19:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:42:19:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:42:19:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:42:19:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:42:19:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:42:19:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:42:19:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:42:19:INFO main LogServices.Main - database == topcity
+2011-04-12 16:42:19:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:42:20:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:42:20:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:42:20:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:42:21:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:42:21:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:42:21:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:42:21:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:42:21:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 16:42:27:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:42:27:INFO doShutDownWork LogServices.Main - LoadData status: isAlive
+2011-04-12 16:42:27:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:42:27:ERROR LoadData LogServices.Main - java.lang.InterruptedException: sleep interrupted
+2011-04-12 16:42:27:INFO LoadData LogServices.Main - test
+2011-04-12 16:42:52:INFO main LogServices.Main - LogServices start ...
+2011-04-12 16:42:52:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 16:42:52:INFO main LogServices.Main - email_TLS == true
+2011-04-12 16:42:52:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 16:42:52:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 16:42:52:INFO main LogServices.Main - dealy == 30
+2011-04-12 16:42:52:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 16:42:52:INFO main LogServices.Main - email_SSL == true
+2011-04-12 16:42:52:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 16:42:52:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 16:42:52:INFO main LogServices.Main - detect_time == 60
+2011-04-12 16:42:52:INFO main LogServices.Main - site 0:
+2011-04-12 16:42:52:INFO main LogServices.Main - port == 5433
+2011-04-12 16:42:52:INFO main LogServices.Main - username == dbadmin
+2011-04-12 16:42:52:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 16:42:52:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 16:42:52:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 16:42:52:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 16:42:52:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 16:42:52:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 16:42:52:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 16:42:52:INFO main LogServices.Main - send_mail == true
+2011-04-12 16:42:52:INFO main LogServices.Main - database == topcity
+2011-04-12 16:42:52:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:42:53:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:42:54:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:42:54:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:42:54:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:42:54:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:42:55:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:42:55:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:42:55:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 16:43:25:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:43:26:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:43:26:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:43:26:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:43:27:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:43:27:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:43:27:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:43:27:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:43:27:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 16:43:57:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 16:44:01:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:44:02:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 16:44:02:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:44:02:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 16:44:02:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 16:44:02:INFO CheckTimeout LogServices.Main - no data import in 60 second, warning mail sending.
+2011-04-12 16:44:02:INFO CheckTimeout LogServices.Main - send mail to:farmer.luo@139.com
+2011-04-12 16:44:03:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 16:44:03:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 16:44:03:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 16:44:05:ERROR CheckTimeout LogServices.Main - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:25
+2011-04-12 16:44:05:INFO CheckTimeout LogServices.Main - send mail to:farmer.luo@gmail.com
+2011-04-12 16:44:07:ERROR CheckTimeout LogServices.Main - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:25
+2011-04-12 16:44:07:INFO CheckTimeout LogServices.Main - warning mail send done.
+2011-04-12 16:44:15:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 16:44:15:INFO doShutDownWork LogServices.Main - LoadData status: isAlive
+2011-04-12 16:44:15:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 16:44:15:ERROR LoadData LogServices.Main - java.lang.InterruptedException: sleep interrupted
+2011-04-12 16:44:15:INFO LoadData LogServices.Main - test
+2011-04-12 17:25:11:INFO main LogServices.Main - LogServices start ...
+2011-04-12 17:25:11:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 17:25:11:INFO main LogServices.Main - email_TLS == true
+2011-04-12 17:25:11:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 17:25:11:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 17:25:11:INFO main LogServices.Main - dealy == 30
+2011-04-12 17:25:11:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 17:25:11:INFO main LogServices.Main - email_SSL == true
+2011-04-12 17:25:11:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 17:25:11:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 17:25:11:INFO main LogServices.Main - detect_time == 60
+2011-04-12 17:25:11:INFO main LogServices.Main - site 0:
+2011-04-12 17:25:11:INFO main LogServices.Main - port == 5433
+2011-04-12 17:25:11:INFO main LogServices.Main - username == dbadmin
+2011-04-12 17:25:11:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 17:25:11:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 17:25:11:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 17:25:11:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 17:25:11:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 17:25:11:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 17:25:11:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 17:25:11:INFO main LogServices.Main - send_mail == true
+2011-04-12 17:25:11:INFO main LogServices.Main - database == topcity
+2011-04-12 17:25:11:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 17:25:12:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 17:25:12:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 17:25:12:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 17:25:14:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 17:25:14:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 17:25:14:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 17:25:14:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 17:25:14:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 17:25:17:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 17:25:17:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 17:25:17:ERROR LoadData LogServices.Main - java.lang.InterruptedException: sleep interrupted
+2011-04-12 17:25:17:INFO LoadData LogServices.Main - test
+2011-04-12 17:28:33:INFO main LogServices.Main - LogServices start ...
+2011-04-12 17:28:33:INFO main LogServices.Main - Loading config.xml...
+2011-04-12 17:28:33:INFO main LogServices.Main - email_TLS == true
+2011-04-12 17:28:33:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-04-12 17:28:34:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-04-12 17:28:34:INFO main LogServices.Main - dealy == 30
+2011-04-12 17:28:34:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-04-12 17:28:34:INFO main LogServices.Main - email_SSL == true
+2011-04-12 17:28:34:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-04-12 17:28:34:INFO main LogServices.Main - email_passwd == 1234567890
+2011-04-12 17:28:34:INFO main LogServices.Main - detect_time == 60
+2011-04-12 17:28:34:INFO main LogServices.Main - site 0:
+2011-04-12 17:28:34:INFO main LogServices.Main - port == 5433
+2011-04-12 17:28:34:INFO main LogServices.Main - username == dbadmin
+2011-04-12 17:28:34:INFO main LogServices.Main - dbtype == vertica
+2011-04-12 17:28:34:INFO main LogServices.Main - host == 192.168.1.107
+2011-04-12 17:28:34:INFO main LogServices.Main - name == fbtw-top-city.rockyouasia.jp
+2011-04-12 17:28:34:INFO main LogServices.Main - path == d:\csv\fbtw
+2011-04-12 17:28:34:INFO main LogServices.Main - extend_name == .csv
+2011-04-12 17:28:34:INFO main LogServices.Main - table == fbtw.c_log
+2011-04-12 17:28:34:INFO main LogServices.Main - password == dbadmin@1.107
+2011-04-12 17:28:34:INFO main LogServices.Main - send_mail == true
+2011-04-12 17:28:34:INFO main LogServices.Main - database == topcity
+2011-04-12 17:28:34:INFO LoadData LogServices.Main - connecting to vertica database server:192.168.1.107,database name:topcity
+2011-04-12 17:28:35:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 17:28:35:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_143_2011412_5_30_25.csv for reading; No such file or directory
+2011-04-12 17:28:35:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 17:28:36:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_141_2011412_5_30_26.csv for reading; No such file or directory
+2011-04-12 17:28:36:INFO LoadData LogServices.Main - fbtw-top-city.rockyouasia.jp:COPY fbtw.c_log FROM 'd:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv' DELIMITER ',' ESCAPE AS '"' EXCEPTIONS 'except.log.2011.04.12' REJECTED DATA 'rejects.log.2011.04.12';
+2011-04-12 17:28:36:ERROR LoadData LogServices.Main - com.vertica.util.PSQLException: ERROR: COPY: Could not open file d:\csv\fbtw\192_168_16_142_2011412_5_30_17.csv for reading; No such file or directory
+2011-04-12 17:28:36:INFO LoadData LogServices.Main - disconnect mysql host:192.168.1.107,database:topcity
+2011-04-12 17:28:36:INFO LoadData LogServices.Main - Sleep Time:30s.
+2011-04-12 17:28:52:INFO doShutDownWork LogServices.Main - Waiting for exit LogServices ...
+2011-04-12 17:28:52:INFO doShutDownWork LogServices.Main - LogServices exit done.
+2011-04-12 17:28:52:ERROR LoadData LogServices.Main - java.lang.InterruptedException: sleep interrupted

@@ -1,0 +1,39 @@
+2011-03-25 13:46:02:INFO main LogServices.Main - LogServices start ...
+2011-03-25 13:46:02:INFO main LogServices.Main - Loading config.xml...
+2011-03-25 13:46:02:INFO main LogServices.Main - email_TLS == true
+2011-03-25 13:46:02:INFO main LogServices.Main - email_smtp == smtp.gmail.com
+2011-03-25 13:46:02:INFO main LogServices.Main - email_user == luoh@gmail.com
+2011-03-25 13:46:02:INFO main LogServices.Main - dealy == 60
+2011-03-25 13:46:02:INFO main LogServices.Main - email_to == farmer.luo@139.com;farmer.luo@gmail.com
+2011-03-25 13:46:02:INFO main LogServices.Main - email_SSL == true
+2011-03-25 13:46:02:INFO main LogServices.Main - email_from == luoh@gmail.com
+2011-03-25 13:46:02:INFO main LogServices.Main - email_passwd == 1234567890
+2011-03-25 13:46:02:INFO main LogServices.Main - detect_time == 180
+2011-03-25 13:46:02:INFO main LogServices.Main - site 0:
+2011-03-25 13:46:02:INFO main LogServices.Main - port == 5433
+2011-03-25 13:46:02:INFO main LogServices.Main - username == dbadmin
+2011-03-25 13:46:02:INFO main LogServices.Main - dbtype == vertica
+2011-03-25 13:46:02:INFO main LogServices.Main - host == xx.xx.xx.xx
+2011-03-25 13:46:02:INFO main LogServices.Main - name == mixi-top-city.rockyouasia.jp
+2011-03-25 13:46:02:INFO main LogServices.Main - path == d:\csv\mixi
+2011-03-25 13:46:02:INFO main LogServices.Main - extend_name == .csv
+2011-03-25 13:46:02:INFO main LogServices.Main - table == mixi.c_log
+2011-03-25 13:46:02:INFO main LogServices.Main - password == password
+2011-03-25 13:46:02:INFO main LogServices.Main - send_mail == true
+2011-03-25 13:46:02:INFO main LogServices.Main - database == topcity
+2011-03-25 13:46:02:INFO main LogServices.Main - site 1:
+2011-03-25 13:46:02:INFO main LogServices.Main - port == 5433
+2011-03-25 13:46:02:INFO main LogServices.Main - username == dbadmin
+2011-03-25 13:46:02:INFO main LogServices.Main - dbtype == vertica
+2011-03-25 13:46:02:INFO main LogServices.Main - host == xx.xx.xx.xx
+2011-03-25 13:46:02:INFO main LogServices.Main - name == hangame-top-city.rockyouasia.jp
+2011-03-25 13:46:02:INFO main LogServices.Main - path == d:\csv\hangame
+2011-03-25 13:46:02:INFO main LogServices.Main - extend_name == .csv
+2011-03-25 13:46:02:INFO main LogServices.Main - table == hangame.c_log
+2011-03-25 13:46:02:INFO main LogServices.Main - password == password
+2011-03-25 13:46:02:INFO main LogServices.Main - send_mail == true
+2011-03-25 13:46:02:INFO main LogServices.Main - database == topcity
+2011-03-25 13:46:02:INFO main LogServices.Main - connecting to vertica database server:xx.xx.xx.xx,database name:topcity
+2011-03-25 13:46:04:ERROR main LogServices.Main - com.vertica.util.PSQLException: The connection attempt failed.
+2011-03-25 13:46:04:INFO Thread-1 LogServices.Main - Waiting for exit LogServices ...
+2011-03-25 13:46:04:INFO Thread-1 LogServices.Main - LogServices exit done.

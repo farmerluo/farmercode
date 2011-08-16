@@ -4,10 +4,10 @@
     <section name="global_options">
        
         <!-- import data dealy time(second) -->
-        <dealy>60</dealy>
+        <dealy>30</dealy>
         
         <!-- if no data file input in detect time(second), then send mail.-->
-        <detect_time>180</detect_time>
+        <detect_time>60</detect_time>
 		
 		<!-- email smtp configure -->
 		<email_from>luoh@gmail.com</email_from>
@@ -25,27 +25,25 @@
 	<sites>
 	
 		<site>
-			<name>mixi-top-city.rockyouasia.jp</name>
+			<name>fbtw-top-city.rockyouasia.jp</name>
 			<!-- extend name of data file -->
 			<extend_name>.csv</extend_name>
-			<path>d:\csv\mixi</path>
+			<path>d:\csv\fbtw</path>
 			<!-- dbtype:mysql is mysql server or infobright,vertica is vertica server -->
 			<dbtype>vertica</dbtype>
-			<host>xx.xx.xx.xx</host>
+			<host>192.168.1.107</host>
 			<port>5433</port>
 			<database>topcity</database>
-			<table>mixi.c_log</table>
+			<table>fbtw.c_log</table>
 			<username>dbadmin</username>
-			<password>password</password>
+			<password>dbadmin@1.107</password>
 			<send_mail>true</send_mail>
 		</site>
-		
+		<!--
 		<site>
 			<name>hangame-top-city.rockyouasia.jp</name>
-			<!-- extend name of data file -->
 			<extend_name>.csv</extend_name>
 			<path>d:\csv\hangame</path>
-			<!-- dbtype:mysql is mysql server or infobright,vertica is vertica server -->
 			<dbtype>vertica</dbtype>
 			<host>xx.xx.xx.xx</host>
 			<port>5433</port>
@@ -55,7 +53,7 @@
 			<password>password</password>
 			<send_mail>true</send_mail>
 		</site>
-		
+		-->
 	</sites>
     
 </configuration>

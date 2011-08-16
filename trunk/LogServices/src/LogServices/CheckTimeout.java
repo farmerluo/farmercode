@@ -49,12 +49,6 @@ public class CheckTimeout extends Thread {
                     stopTime[j] = System.currentTimeMillis();
                     dealyTime[j] = ( stopTime[j] - startTime[j] ) / 1000;
 
-                    try {
-                        Thread.sleep(10000);
-                    } catch (InterruptedException ex) {
-                        Main.logger.error( ex );
-                    }
-                    
                     if ( dealyTime[j] >= detectTime ) {
                         load_data.setstartTime(j,System.currentTimeMillis() );
                         Main.logger.info( "no data import in " + detectTime + " second, warning mail sending." );
@@ -64,6 +58,12 @@ public class CheckTimeout extends Thread {
                         }
                         Main.logger.info( "warning mail send done." );
                     }
+                }
+
+                try {
+                    Thread.sleep(10000);
+                } catch (InterruptedException ex) {
+                    Main.logger.error( ex );
                 }
 
             }
