@@ -146,7 +146,7 @@ public class LoadData  extends Thread {
                               + config_sites[j].get("table") + " FIELDS TERMINATED BY ',';";
                     } else {
                         Date now=new Date();
-                        SimpleDateFormat f=new SimpleDateFormat("yyyy.MM.dd_");
+                        SimpleDateFormat f=new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss");
 
                         sql = "COPY "+ config_sites[j].get("table") + " FROM '" + ArrList[i].getAbsolutePath()
                               + "' DELIMITER ',' ESCAPE AS '\"' EXCEPTIONS 'except." + config_sites[j].get("table") + "."+ f.format(now)

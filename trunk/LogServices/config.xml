@@ -27,16 +27,18 @@
 		<site>
 			<name>fbtw-top-city.rockyouasia.jp</name>
 			<!-- extend name of data file -->
+                        <compress>true</compress>
+                        <compress_extend_name>.gz</compress_extend_name>
 			<extend_name>.csv</extend_name>
 			<path>d:\csv\fbtw</path>
 			<!-- dbtype:mysql is mysql server or infobright,vertica is vertica server -->
 			<dbtype>vertica</dbtype>
-			<host>192.168.1.107</host>
+			<host>192.168.3.107</host>
 			<port>5433</port>
 			<database>topcity</database>
 			<table>fbtw.c_log</table>
 			<username>dbadmin</username>
-			<password>dbadmin@1.107</password>
+			<password>dbadmin</password>
 			<send_mail>true</send_mail>
 		</site>
 		<!--
