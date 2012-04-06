@@ -9,11 +9,15 @@ import java.text.SimpleDateFormat;
 import java.io.*;
 import java.util.*;
 import java.sql.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import org.xml.sax.SAXException;
 import com.mysql.jdbc.*;
 import com.vertica.*;
+import java.io.*;
+import java.util.zip.GZIPInputStream;
 
 /**
  *
@@ -60,6 +64,34 @@ public class LoadData  extends Thread {
    public synchronized void setflag( boolean newflag ) {
         flag = newflag;
     }
+   
+
+   public int unzip(String srcfile, String dstfile) {
+        FileInputStream fin;
+        
+        try {
+            fin = new FileInputStream(srcfile);
+            FileOutputStream out = new FileOutputStream(dstfile);
+            GZIPInputStream gzIn = new GZIPInputStream(fin);
+            int buffersize = 1024;
+            byte[] buffer = new byte[buffersize];
+
+            int n = 0;
+            int len;
+            while  ((len = gzIn.read(buffer))  >   0 ) {
+                out.write(buffer, 0, len);
+            }
+            out.close();
+            gzIn.close();
+            fin.close();
+            return 0;
+        } catch (FileNotFoundException ex) {
+            Main.logger.error( ex );
+        } catch (IOException ex) {
+            Main.logger.error( ex );
+        }
+        return 1;
+   }
 
     public void executeLoad() throws SQLException {
 
@@ -70,7 +102,25 @@ public class LoadData  extends Thread {
             for ( int j = 0; j < config_sites.length; j++ ) {
 
                 if ( startTime[j] == 0 )  startTime[j] = System.currentTimeMillis();
-
+                
+                //如果是压缩文件，先对其进行解压
+                if ( Boolean.parseBoolean(config_sites[j].get("compress")) ) {
+                
+                    FileList findziplist  = new FileList( config_sites[j].get("path").toString(), config_sites[j].get("compress_extend_name").toString());
+                    File [] zipList = findziplist.FileLists;
+                    for (int i = 0;i < zipList.length; i++ ) {
+                        if (unzip(zipList[i].getAbsolutePath(),zipList[i].getAbsolutePath()+".csv")==0 ) {
+                            boolean success = (new File( zipList[i].getAbsolutePath() )).delete();
+                            if (!success) {
+                                Main.logger.info( "Delete file " + zipList[i].getAbsolutePath() + "failed" );
+                            }
+                        } else {
+                            Main.logger.info( "uncompress file " + zipList[i].getAbsolutePath() + "failed" );
+                        }
+                    }
+                    
+                }
+                
                 FileList findlist  = new FileList( config_sites[j].get("path").toString(), config_sites[j].get("extend_name").toString());
                 File [] ArrList = findlist.FileLists;
 
@@ -96,16 +146,16 @@ public class LoadData  extends Thread {
                               + config_sites[j].get("table") + " FIELDS TERMINATED BY ',';";
                     } else {
                         Date now=new Date();
-                        SimpleDateFormat f=new SimpleDateFormat("yyyy.MM.dd");
+                        SimpleDateFormat f=new SimpleDateFormat("yyyy.MM.dd_");
 
                         sql = "COPY "+ config_sites[j].get("table") + " FROM '" + ArrList[i].getAbsolutePath()
-                              + "' DELIMITER ',' ESCAPE AS '\"' EXCEPTIONS 'except.log."+ f.format(now)
-                              +"' REJECTED DATA 'rejects.log."+ f.format(now) +"';";
+                              + "' DELIMITER ',' ESCAPE AS '\"' EXCEPTIONS 'except." + config_sites[j].get("table") + "."+ f.format(now)
+                              +".log' REJECTED DATA 'rejects."+ config_sites[j].get("table") + "." + f.format(now) +".log';";
                     }
 
                     Main.logger.info(config_sites[j].get("name").toString() + ":" + sql);
                     try {
-
+                        stmt.setQueryTimeout(180);
                         stmt.execute(sql);
                         boolean success = (new File( ArrList[i].getAbsolutePath() )).delete();
                         if (!success) {

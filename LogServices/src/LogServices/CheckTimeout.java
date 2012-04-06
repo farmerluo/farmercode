@@ -43,7 +43,7 @@ public class CheckTimeout extends Thread {
 
         while ( true ) {
             for ( int j = 0; j < config_sites.length; j++ ) {
-                if ( Boolean.parseBoolean(config_sites[j].get("send_mail").toString()) ) {
+                if ( Boolean.parseBoolean(config_sites[j].get("send_mail")) ) {
                     //在超过detectTime时间内没有导入数据，则发警告邮件出去
                     startTime = load_data.getstartTime();
                     stopTime[j] = System.currentTimeMillis();
