@@ -18,17 +18,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-       org.apache.log4j.PropertyConfigurator.configure("./log4j.properties");
-       logger.info( "LogServices start ..." );
+        org.apache.log4j.PropertyConfigurator.configure("./log4j.properties");
+        logger.info( "LogServices start ..." );
 
-       load_data = new LoadData();
-       load_data.loadConfig();
-       load_data.start();
+        load_data = new LoadData();
+        load_data.loadConfig();
+        load_data.start();
+        
+        try {
+            Thread.sleep(30000);
+        } catch (InterruptedException ex) {
+            logger.info( "ex." );
+        }
 
-       check_time = new CheckTimeout(load_data);
-       check_time.start();
+        check_time = new CheckTimeout(load_data);
+        check_time.start();
 
-       doShutDownWork();
+        //doShutDownWork();
    
     }
 
