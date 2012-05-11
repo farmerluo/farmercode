@@ -96,13 +96,15 @@ public class LoadData  extends Thread {
     public void executeLoad() throws SQLException {
 
         startTime = new long[config_sites.length];
+        
+        for ( int j = 0; j < config_sites.length; j++ ) {
+            startTime[j] = System.currentTimeMillis();
+        }
 
         while( flag ) {
 
             for ( int j = 0; j < config_sites.length; j++ ) {
 
-                if ( startTime[j] == 0 )  startTime[j] = System.currentTimeMillis();
-                
                 //如果是压缩文件，先对其进行解压
                 if ( Boolean.parseBoolean(config_sites[j].get("compress")) ) {
                 
@@ -155,7 +157,6 @@ public class LoadData  extends Thread {
 
                     Main.logger.info(config_sites[j].get("name").toString() + ":" + sql);
                     try {
-                        stmt.setQueryTimeout(180);
                         stmt.execute(sql);
                         boolean success = (new File( ArrList[i].getAbsolutePath() )).delete();
                         if (!success) {
